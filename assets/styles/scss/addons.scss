@@ -1,9 +1,35 @@
 //addons
+@import 'var';
 
+//align
 .center{
     text-align: center;
 }
 
+//link
+a, a:hover, a:visited{
+    color: $blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: $dblue;
+    text-decoration: underline;
+}
+
+//font
 .bold{
     font-weight: bold;
+}
+
+//font-size
+.s13{font-size: 13px;}
+.s16{font-size: 16px;}
+.s18{font-size: 18px;}
+.s20{font-size: 20px;}
+.s22{font-size: 22px;}
+
+//margin
+.ml20{
+    margin-left: 20px;
 }

@@ -2,8 +2,42 @@
   text-align: center;
 }
 
+a, a:hover, a:visited {
+  color: #398fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d76ff;
+  text-decoration: underline;
+}
+
 .bold {
   font-weight: bold;
+}
+
+.s13 {
+  font-size: 13px;
+}
+
+.s16 {
+  font-size: 16px;
+}
+
+.s18 {
+  font-size: 18px;
+}
+
+.s20 {
+  font-size: 20px;
+}
+
+.s22 {
+  font-size: 22px;
+}
+
+.ml20 {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=addons.css.map */

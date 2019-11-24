@@ -3,12 +3,12 @@ body, html {
   margin: 0 30px;
   background-color: #fff;
   scroll-behavior: smooth;
-  text-align: justify;
 }
 
 #nav {
   width: 100%;
   height: 70px;
+  z-index: 100;
   position: fixed;
   background-color: #fff;
 }
@@ -28,8 +28,37 @@ body, html {
   line-height: 70px;
 }
 
-#about {
-  padding-top: 70px;
+#projects {
+  padding: 100px 0 70px 0;
+  text-align: center;
+  min-height: auto;
+  width: 100%;
+  background-color: #6eff61;
+}
+
+#projects .item {
+  height: 300px;
+  width: 300px;
+  margin: 30px 10px;
+  position: relative;
+  display: inline-block;
+  background-color: #398fff;
+}
+
+#projects .item .hover {
+  height: 100px;
+  width: 300px;
+  display: block;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+  background-color: #a14fff;
+}
+
+#projects .item:hover .hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -2,13 +2,17 @@
   text-align: center;
 }
 
+.bl {
+  display: block;
+}
+
 a, a:hover, a:visited {
   color: #398fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0d76ff;
+  color: #0026ff;
   text-decoration: underline;
 }
 
@@ -36,8 +40,24 @@ a:hover {
   font-size: 22px;
 }
 
+.s26 {
+  font-size: 26px;
+}
+
+.s28 {
+  font-size: 28px;
+}
+
 .ml20 {
   margin-left: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.fblack {
+  color: #000;
 }
 
 /*# sourceMappingURL=addons.css.map */

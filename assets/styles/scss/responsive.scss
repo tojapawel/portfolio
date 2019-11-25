@@ -28,11 +28,13 @@
             // background-color: $red;
         }
 
-
     //about
     #about{
         padding-top: 100px;
     }
+
+    //projects
+    #projects .item .hover{
+        opacity: 70%;
+    }
 }
-
-

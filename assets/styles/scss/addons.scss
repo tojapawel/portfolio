@@ -2,13 +2,8 @@
 @import 'var';
 
 //align
-.center{
-    text-align: center;
-}
-
-.bl{
-    display: block;
-}
+.center{text-align: center;}
+.bl{display: block;}
 
 //link
 a, a:hover, a:visited{
@@ -22,9 +17,7 @@ a:hover{
 }
 
 //font
-.bold{
-    font-weight: bold;
-}
+.bold{font-weight: bold;}
 
 //font-size
 .s13{font-size: 13px;}
@@ -36,13 +29,14 @@ a:hover{
 .s28{font-size: 28px;}
 
 //margin
-.ml20{
-    margin-left: 20px;
-}
+.ml20{margin-left: 20px;}
 
-.center{
-    text-align: center;
-}
+.center{text-align: center;}
 
 //color
 .fblack{color: $black;}
+.fwhite{color: $white;}
+.fred{color: $red;}
+.fblue{color: $blue;}
+.fgreen{color: $green;}
+.fpurple{color: $purple;}

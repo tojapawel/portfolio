@@ -23,6 +23,10 @@
   #about {
     padding-top: 100px;
   }
+
+  #projects .item .hover {
+    opacity: 70%;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */

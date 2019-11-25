@@ -60,4 +60,24 @@ a:hover {
   color: #000;
 }
 
+.fwhite {
+  color: #fff;
+}
+
+.fred {
+  color: #ff6161;
+}
+
+.fblue {
+  color: #398fff;
+}
+
+.fgreen {
+  color: #6eff61;
+}
+
+.fpurple {
+  color: #a14fff;
+}
+
 /*# sourceMappingURL=addons.css.map */

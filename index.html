@@ -1,292 +1,38 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
         <meta name="author" content="Kozicki Paweł">
-        <meta name="description" content="Moje portfolio">
 
-        <title>portfolio / Kozicki Paweł</title>
+        <title>Paweł Kozicki</title>
 
-        <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/addons.css">
     </head>
-    <body class="bg-light">
 
-        <main role="main">
-            <section class="jumbotron text-center bg-light">
-                <div class="container">
-                    <h1 class="font-weight-bold">Paweł Kozicki</h1>
-                    <p class="lead text-muted">Portfolio zawierające moje projekty.</p>
-                    <hr>
-                </div>
-            </section>
+    <body>
+        <div id="cont">
 
-            <div class="album bg-light">
-                <div class="container">
-                    <div class="row">
+            <div class="left">
+                <div class="center">
 
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <a href="http://www.owadowo.pl/" target="_blank">
-                                    <img class="bd-placeholder-img card-img-top" src="assets/img/owadowo.png" width="100%" height="225"></img>
-                                </a>
-                                <div class="card-body">
-                                    <h4 class="text-center">owadowo.pl</h4>
-                                    <hr/>
-                                    <p class="card-text text-center">Strona/sklep dla firmy sprzedającej produkty do deratyzacji.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-secondary" onclick='window.open("http://www.owadowo.pl/", "_blank")'>Przejdź do strony</button>  
-                                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modalowadowo">Informacje</button> 
-                                        </div>
-                                        <small class="text-muted">2018r.</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- modalowadowo -->
-                        <div class="modal fade" id="modalowadowo" tabindex="-1" role="dialog" aria-labelledby="modalowadowo" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="modalowadowo">Funkcje w <b>owadowo.pl</b></h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-        
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">panel administracji</li>
-                                                <li class="list-group-item">dodawanie, usuwanie i edytowanie produktów</li>
-                                                <li class="list-group-item">tworzenie zamówienia</li>
-                                                <li class="list-group-item">przetwarzanie zamówienia</li>
-                                                <li class="list-group-item">tworzenie konta</li>
-                                                <li class="list-group-item">przetwarzanie płatności (dotpay)</li>
-                                            </ul>
-        
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Zamknij</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <img src="assets/img/avatar.jpg" class="avatar">
+                    <h1>Kozicki Paweł</h1>
+                    <!-- TODO: Dodać kontakt: mail, github, messenger-->
 
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <a href="http://www.romantica.glogow.pl/" target="_blank">
-                                    <img class="bd-placeholder-img card-img-top" src="assets/img/romantica.png" width="100%" height="150"></img>
-                                </a>
-                                <div class="card-body">
-                                    <h4 class="text-center">romantica.glogow.pl</h4>
-                                    <hr/>
-                                    <p class="card-text text-center">Strona dla pizzerii w głogowie.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-secondary" onclick='window.open("http://www.romantica.glogow.pl/", "_blank")'>Przejdź do strony</button>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modalromantica">Informacje</button>
-                                        </div>
-                                        <small class="text-muted">2019r.</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- modalromantica -->
-                        <div class="modal fade" id="modalromantica" tabindex="-1" role="dialog" aria-labelledby="modalromantica" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="modalromantica">Funkcje w <b>romantica.glogow.pl</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-    
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">panel administracji</li>
-                                            <li class="list-group-item">dodawanie, usuwanie i edytowanie dań</li>
-                                            <li class="list-group-item">zmiana hasła</li>
-                                            <li class="list-group-item">edytowanie galerii</li>
-                                            <li class="list-group-item">edycja innych danych</li>
-                                            <li class="list-group-item">wyświetlanie danych z bazy danych</li>
-                                        </ul>
-    
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Zamknij</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <a href="http://mojezwierzaki.ugu.pl/" target="_blank">
-                                    <img class="bd-placeholder-img card-img-top" src="assets/img/mojezwierzaki.png" width="100%" height="180"></img>
-                                </a>
-                                <div class="card-body">
-                                    <h4 class="text-center">mojezwierzaki.ugu.pl</h4>
-                                    <hr/>
-                                    <p class="card-text text-center">Strona z moimi wszystkimi zwierzakami.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-secondary" onclick='window.open("http://mojezwierzaki.ugu.pl/", "_blank")'>Przejdź do strony</button>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modalmojezwierzaki">Informacje</button>
-                                        </div>
-                                        <small class="text-muted">2015r.</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- modalmojezwierzaki -->
-                        <div class="modal fade" id="modalmojezwierzaki" tabindex="-1" role="dialog" aria-labelledby="modalmojezwierzaki" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="modalmojezwierzaki">Funkcje w <b>mojezwierzaki.ugu.pl</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">panel administracji</li>
-                                            <li class="list-group-item">dodawanie, usuwanie i edytowanie "zwierzaków"</li>
-                                            <li class="list-group-item">wyświetlanie danych z bazy danych</li>
-                                        </ul>
-
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Zamknij</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="card-body">
-                                    <a href="http://dzialkipiast.pl/" target="_blank">
-                                        <img class="bd-placeholder-img card-img-top" src="assets/img/dzialkipiast.png" width="100%" height="150"></img>
-                                    </a>
-                                    <h4 class="text-center">dzialkipiast.pl</h4>
-                                    <hr/>
-                                    <p class="card-text text-center">Strona informacyjna dla właścicieli działek piast w głogowie.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-secondary" onclick='window.open("http://dzialkipiast.pl/", "_blank")'>Przejdź do strony</button>  
-                                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modaldzialki">Informacje</button> 
-                                        </div>
-                                        <small class="text-muted">2019r.</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- modaldzialki -->
-                        <div class="modal fade" id="modaldzialki" tabindex="-1" role="dialog" aria-labelledby="modaldzialki" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="modaldzialki">Funkcje w <b>dzialkipiast.pl</b></h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-        
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">panel administracji</li>
-                                                <li class="list-group-item">dodawanie, usuwanie i edytowanie ogłoszeń oraz komunikatów</li>
-                                                <li class="list-group-item">edycja danych z bazy</li>
-                                                <li class="list-group-item">wyświetlanie danych</li>
-                                            </ul>
-        
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Zamknij</button>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
 
-            <section class="jumbotron text-center bg-light">
-                <div class="container">
-                    <p class="lead text-muted">Projekty w trakcie tworzenia.</p>
-                    <small class="text-muted">Możliwe do obejrzenia u mnie ( <a href="kontakt.html">kontakt</a> )</small>
-                    <hr>
+            <div class="right">
+                <div class="center">
+
+                    <h3>website in progress :))</h3>
+
                 </div>
-            </section>
+            </div>
             
-            <div class="album bg-light">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col">
-                            <div class="card mb-2">
-                                <div class="card-body">
-                                    <h4 class="text-center">trader</h4>
-                                    <hr/>
-                                    <p class="card-text text-center">Gra przeglądarkowa w której musisz <span class="font-italic">kupować</span> rzeczy w jednym miejscu i <span class="font-italic">sprzedawać</span> w drugim, aby <span class="font-italic">stać się bogatym</span>.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-secondary" disabled>Przejdź do strony</button>  
-                                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modialtrader">Informacje</button> 
-                                        </div>
-                                        <small class="text-muted">????r.</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- modialtrader -->
-                        <div class="modal fade" id="modialtrader" tabindex="-1" role="dialog" aria-labelledby="modialtrader" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="modialtrader">Funkcje w <b>trader</b></h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
+        </div>
         
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">gra jest w trakcie tworzenia</li>
-                                            </ul>
-        
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Zamknij</button>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </main>
-
-        <footer class="text-muted bg-light">
-            <div class="container">
-                <p class="float-right">
-                    <a href="kontakt.html">Kontakt</a>
-                </p>
-            </div>
-        </footer>
-
-        <script src="assets/js/jquery-3.4.1.min.js"></script>
-        <script src="assets/js/bootstrap.js"></script>
-
     </body>
 </html>

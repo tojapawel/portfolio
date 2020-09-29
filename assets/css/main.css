@@ -1,49 +1,50 @@
-.bd-placeholder-img{
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
 }
-          
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+
+#cont{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+    #cont .left,
+    #cont .right{
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        float: left;
+        
     }
-}
 
-.jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
-}
-
-@media (min-width: 768px) {
-    .jumbotron {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
+    #cont .left{
+        background-color: #292929;
+        color: white;
     }
+    
+
+    #cont .right{
+        background-color: white;
+    }
+
+    
+.center{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.jumbotron p:last-child {
-    margin-bottom: 0;
-}
-
-.jumbotron h1 {
-    font-weight: 300;
-}
-
-.jumbotron .container {
-    max-width: 40rem;
-}
-
-footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-footer p {
-    margin-bottom: .25rem;
+.avatar{
+    height: 200px;
+    border-radius: 100%;
 }

@@ -52,5 +52,18 @@ body{
     -khtml-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
-    user-drag: none;
+}
+
+#lang{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 1;
+    line-height: 40px;
+}
+
+#lang .s:hover{
+    color: red;
 }

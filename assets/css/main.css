@@ -18,7 +18,6 @@ body{
 
     #cont .left,
     #cont .right{
-        width: 50%;
         height: 100%;
         text-align: center;
         float: left;
@@ -26,44 +25,12 @@ body{
     }
 
     #cont .left{
+        width: 30%;
         background-color: #292929;
         color: white;
     }
-    
 
     #cont .right{
+        width: 70%;
         background-color: white;
     }
-
-    
-.center{
-    position: relative;
-    float: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.avatar{
-    height: 200px;
-    border-radius: 100%;
-
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-}
-
-#lang{
-    height: 30px;
-    width: 30px;
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    z-index: 1;
-    line-height: 40px;
-}
-
-#lang .s:hover{
-    color: red;
-}

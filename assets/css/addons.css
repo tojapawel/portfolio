@@ -6,3 +6,25 @@ a{
     a:hover{
         font-weight: bold;
     }
+    
+.center{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar{
+    height: 200px;
+    border-radius: 100%;
+
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.right h3{
+    font-weight: normal;
+}

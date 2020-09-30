@@ -45,7 +45,7 @@
             <div class="right">
                 <div class="center">
 
-                    <h3>website in progress :))</h3>
+                    <h3><?php echo date(d. " " .m. " " .Y); ?></h3>
 
                 </div>
             </div>

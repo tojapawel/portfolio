@@ -25,6 +25,18 @@ a{
     -o-user-drag: none;
 }
 
-.right h3{
-    font-weight: normal;
+
+.item{
+    width: 100%;
+    background-color: yellow;
+}
+
+.item .padd{
+    padding: 20px;
+}
+
+
+.content{
+    font-weight: bold;
+    text-transform: uppercase;
 }

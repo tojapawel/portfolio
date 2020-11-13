@@ -35,7 +35,7 @@
             <div id="about">
                 <div class="about-left">
                     <div class="about-left-img">
-                        <img src="assets/img/avatar.jpg" alt="avatar">
+                        <img src="assets/img/avatar.jpg" id="nodrag" alt="avatar">
                     </div>
                     <div class="about-left-text">
                         <span>Kozicki Paweł</span>
@@ -58,8 +58,23 @@
 
                 <div class="projects-title">
                     <span class="block-title">projekty</span><br/>
-                    <span>Już wkrótce!</span>
                 </div>
+
+                <div class="projects-item">
+                    <div class="item-img"></div>
+                    <div class="item-text"></div>
+                </div>
+
+                <div class="projects-item">
+                    <div class="item-text"></div>
+                    <div class="item-img"></div>
+                </div>
+                
+                <div class="projects-item">
+                    <div class="item-img"></div>
+                    <div class="item-text"></div>
+                </div>
+                
 
             </div>
 
@@ -108,6 +123,10 @@
             </div>
 
         </div>
+
+        <script>
+            document.getElementById('nodrag').setAttribute('draggable', false);
+        </script>
 
     </body>
 </html>

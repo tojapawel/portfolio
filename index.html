@@ -1,82 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180083129-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-180083129-1');
-        </script>
-
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Kozicki Paweł">
+        <meta name="description" content="Portfolio Pawła Kozickiego">
 
-        <title>Paweł Kozicki / portfolio</title>
+        <title>Kozicki Paweł - Portfolio</title>
 
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/addons.css">
+        <link rel="stylesheet" href="assets/styles/css/main.css">
+        <link rel="stylesheet" href="assets/styles/css/temp.css">
 
-        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/js/smoothScroll.js"></script>
     </head>
+    <body id="top">
 
-    <body>
+        <div id="nav">
+            <div id="nav-menu">
+                <div class="menu-item">
+                    <a href="#top">o mnie</a>
+                </div>
+                <div class="menu-item">
+                    <a href="#projects">projekty</a>
+                </div>
+                <div class="menu-item">
+                    <a href="#contact">kontakt</a>
+                </div>
+            </div>
+        </div>
 
-        <div id="cont">
+        <div id="box">
 
-            <div class="left">
-                <div class="center">
+            <div id="about">
+                <div class="about-left">
+                    <div class="about-left-img">
+                        <img src="assets/img/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="about-left-text">
+                        <span>Kozicki Paweł</span>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-right-title">
+                        <span class="block-title">o mnie</span>
+                    </div>
+                    <div class="about-right-text">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maiores explicabo atque in, voluptate mollitia eaque officia. Delectus libero, nam laborum atque repellendus nulla, ipsum veniam minima quod quo maxime!Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maiores explicabo atque in, voluptate mollitia eaque officia. Delectus libero, nam laborum atque repellendus nulla, ipsum veniam minima quod quo maxime!</span>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
 
-                    <img src="assets/img/avatar.jpg" class="avatar">
-                    <h1>Kozicki Paweł</h1>
+            <div class="line"></div>
 
-                    <a href="mailto:pawel.kozicki01@gmail.com" target="_blank">
-                        <box-icon type="solid" name="envelope" id="link" color="white" onmouseover="iconHover(this, '#ff4747')" onmouseout="iconHover(this, 'white')"></box-icon>
-                    </a>
-                    <a href="https://github.com/tojapawel" target="_blank">
-                        <box-icon type="logo" name="github" id="link" color="white" onmouseover="iconHover(this, '#ff4747')" onmouseout="iconHover(this, 'white')"></box-icon>
-                    </a>
-                    <a href="https://www.messenger.com/t/pawel.kozicki01" target="_blank">
-                        <box-icon type="logo" name="messenger" id="link" color="white" onmouseover="iconHover(this, '#ff4747')" onmouseout="iconHover(this, 'white')"></box-icon>
-                    </a>
-                    <!-- TODO: stworzyć stronę "aboutme" -->
-                    <!-- <a href="about.html">
-                        <box-icon type="solid" name="info-square" id="link" color="white" onmouseover="iconHover(this, '#ff4747')" onmouseout="iconHover(this, 'white')"></box-icon>
-                    </a> -->
-                    
+            <div id="projects">
+
+                <div class="projects-title">
+                    <span class="block-title">projekty</span><br/>
+                    <span>Już wkrótce!</span>
+                </div>
+
+            </div>
+
+            <div class="line"></div>
+
+            <div id="contact">
+                <div class="contact-box">
+
+                    <div class="contact-title">
+                        <span class="block-title">Kontakt</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <img src="assets/img/icons/bxl-github.svg" alt="github">
+                        </div>
+                        <div class="contact-item-text">
+                            <span><a href="https://github.com/tojapawel" target="_blank">GitHub</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <img src="assets/img/icons/bxs-envelope.svg" alt="mail">
+                        </div>
+                        <div class="contact-item-text">
+                            <span><a href="mailto:pawel.kozicki01@gmail.com" target="_blank">Mail</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <img src="assets/img/icons/bxl-messenger.svg" alt="messenger">
+                        </div>
+                        <div class="contact-item-text">
+                            <span><a href="https://www.messenger.com/t/pawel.kozicki01" target="_blank">Messenger</a></span>
+                        </div>
+                    </div>
+
+                    <div style="clear: both"></div>
                 </div>
             </div>
 
-            <div class="right">
-
-                   <div class="item">
-                        <div class="padd">
-                            
-                            <div class="date">
-
-                            </div>
-                            <div class="content">
-                                <h3>dzialkipiast.pl</h3>
-                            </div>
-
-                        </div>
-                   </div>
-                    
+            <div id="credits">
+                <span>by. Kozicki Paweł &copy;2020</span>
             </div>
-            
+
         </div>
-
-        <script>
-
-            function iconHover(x, col){
-                x.setAttribute('color', col);
-            }
-
-        </script>
 
     </body>
 </html>

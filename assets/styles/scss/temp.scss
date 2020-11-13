@@ -1,0 +1,144 @@
+@import 'variables';
+#box{
+    @include debug(cyan, $dev: $debug);
+
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-title{
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
+.line{
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 30%;
+    background-color: $grey;
+    opacity: .5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+//about
+    #about{
+        @include debug(yellow, $dev: $debug);
+
+        padding: 10px;
+        margin-top: 150px;
+        height: auto;
+    }
+
+    //about-left
+        .about-left{
+            @include debug(pink, $dev: $debug);
+            text-align: center;
+            width: 250px;
+            float: left;
+        }
+
+            .about-left-img{
+                height: 200px;
+                width: 100%;
+            }
+
+                .about-left-img img{
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 300px;
+                    box-shadow: 2px 2px 5px $grey;
+                }
+
+            .about-left-text{
+                height: 50px;
+                width: 100%;
+                line-height: 50px;
+            }
+
+                
+                .about-left-text span{
+                    font-weight: 900;
+                    font-size: 30px;
+                }
+
+    //about-right
+        .about-right{
+            @include debug(chartreuse, $dev: $debug);
+
+            width: calc(100% - 250px);
+            min-height: 100%;
+            float: right;
+        }
+
+            .about-right-title{
+                @include debug(Coral, $dev: $debug);
+
+                text-align: center;
+                height: 50px;
+                line-height: 50px;
+            }
+
+            .about-right-text{
+                @include debug(DarkOrchid, $dev: $debug);
+
+                text-align: justify;
+                height: 100%;
+                padding: 30px;
+            }
+
+//projects
+    #projects{
+        @include debug(DarkKhaki, $dev: $debug);
+    }
+
+        .projects-title{
+            text-align: center;
+        }
+
+//contact
+    #contact{
+        @include debug(DarkOrange, $dev: $debug);
+
+        margin-bottom: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+        .contact-box{
+            @include debug(Fuchsia, $dev: $debug);
+            
+            width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            .contact-title{
+                height: 50px;
+                line-height: 50px;
+            }
+
+            .contact-item{
+                @include debug(GoldenRod, $dev: $debug);
+
+                height: 70px;
+                width: 150px;
+                float: left;
+            }
+
+                .contact-item-icon img{
+                    height: 40px;
+                }
+
+//credits
+    #credits{
+        @include debug(Khaki, $dev: $debug);
+
+        margin-bottom: 170px;
+        text-align: center;
+        font-size: 12px;
+    }

@@ -1,0 +1,20 @@
+//debug
+    $debug: false;
+
+    @mixin debug($color, $dev: false){  
+        @if $dev{
+            background-color: $color;
+        }
+    }
+
+    //@include debug(cyan, $dev: $debug);
+
+//font
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600&display=swap');
+    $font: 'Source Code Pro', monospace;
+
+//colors
+    $grey: #525252;
+    $white: #ffffff;
+    $blue: #2e7fff;
+    

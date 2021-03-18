@@ -46,3 +46,11 @@ a:hover {
   display: inline-block;
   line-height: 70px;
 }
+
+.malinka{
+  font-size: 10px;
+}
+
+.malinka:hover{
+  font-size: 10px;
+}

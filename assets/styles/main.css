@@ -32,6 +32,7 @@ a:hover {
   z-index: 100;
 }
 
+
 #nav-menu {
   text-align: center;
   width: 100%;
@@ -40,17 +41,26 @@ a:hover {
   margin-right: auto;
 }
 
+#about {
+  padding: 10px;
+  height: auto;
+}
+
+#credits {
+  margin-bottom: 170px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#contact {
+  margin-bottom: 20px;
+  height: auto;
+  text-align: center;
+}
+
 .menu-item {
   min-width: 150px;
   height: 100%;
   display: inline-block;
   line-height: 70px;
-}
-
-.malinka{
-  font-size: 10px;
-}
-
-.malinka:hover{
-  font-size: 10px;
 }

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600&display=swap");
 #box {
-  width: 60%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -27,16 +26,8 @@
   margin: 100px 0px;
 }
 
-#about {
-  padding: 10px;
-  margin-top: 150px;
-  height: auto;
-}
-
 .about-left {
   text-align: center;
-  width: 250px;
-  float: left;
 }
 
 .about-left-img {
@@ -48,8 +39,6 @@
   height: 200px;
   width: 200px;
   border-radius: 300px;
-  -webkit-box-shadow: 2px 2px 5px #525252;
-          box-shadow: 2px 2px 5px #525252;
 }
 
 .about-left-text {
@@ -64,9 +53,7 @@
 }
 
 .about-right {
-  width: calc(100% - 250px);
   min-height: 100%;
-  float: right;
 }
 
 .about-right-title {
@@ -98,9 +85,7 @@
 }
 
 .item-text {
-  width: calc(100% - 250px);
   min-height: 100%;
-  float: left;
 }
 
 .item-text-title {
@@ -125,12 +110,6 @@
   padding: 10px;
 }
 
-#contact {
-  margin-bottom: 20px;
-  height: auto;
-  text-align: center;
-}
-
 .contact-box {
   width: 450px;
   margin-left: auto;
@@ -152,8 +131,10 @@
   height: 40px;
 }
 
-#credits {
-  margin-bottom: 170px;
-  text-align: center;
-  font-size: 12px;
+.malinka{
+  font-size: 10px;
+}
+
+.malinka:hover{
+  font-size: 10px;
 }

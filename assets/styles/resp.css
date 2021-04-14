@@ -34,6 +34,10 @@
         float: left;
     }
 
+    .contact-box {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 900px) {
@@ -69,6 +73,10 @@
         margin-top: 0px;
         width: 150px;
         float: left;
+    }
+
+    .contact-box {
+        width: 450px;
     }
 
 }

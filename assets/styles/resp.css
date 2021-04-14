@@ -28,6 +28,12 @@
         float: none;
     }
 
+    .contact-item {
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+    }
+
 }
 
 @media only screen and (min-width: 900px) {
@@ -56,6 +62,12 @@
 
     .item-text {
         width: calc(100% - 250px);
+        float: left;
+    }
+
+    .contact-item {
+        margin-top: 0px;
+        width: 150px;
         float: left;
     }
 
